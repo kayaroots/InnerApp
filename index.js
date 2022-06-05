@@ -2,7 +2,7 @@ const breath = document.getElementById("breath")
 const yoga = document.getElementById("yoga")
 const meditation = document.getElementById("meditation")
 const ready = document.getElementById("ready")
-
+const list = document.getElementById("list")
 
 
 breath.addEventListener("click", function() {
