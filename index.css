@@ -51,13 +51,14 @@ h3{
   display: flex;
   justify-content: space-between;
   gap: 2rem;
-  margin-bottom: 5rem;
+  margin-bottom: 1rem;
 }
 
 .lessons button{
+  padding: 3rem;
   border-radius: 100%;
-  width: 3rem;
-  height: 3rem;
+  width: 30vh;
+  height: 10vh;
   border: none;
   background: linear-gradient(0deg,#F3EAE7, #F3EAE7), linear-gradient(0deg, #Faeac6, #faeac6), #fff;
   background-position: center;
@@ -86,21 +87,23 @@ h3{
   flex-direction: column;
   width: 50%;
 }
-th{
-  text-align: left;
+.title{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
-table{
-  width: 100%;
-}
-table button{
+.list button{
   background-color: transparent;
   color: var(--second-color);
   border: none;
 }
+.list button:hover{
+  font-size: 1.1rem;
+}
 .list p , strong{
   text-align: end;
-  color: var(--white-color);
+  color: var(--black-color);
   font-weight: bold;
 
   margin-bottom: 0;
